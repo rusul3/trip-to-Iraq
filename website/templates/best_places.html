@@ -1,0 +1,55 @@
+{% extends "base.html" %} {% block title %}Geographical_location{% endblock %} {% block content
+%}
+<form method="POST">
+        <header>
+            <h1>Best Places to Visit in Iraq</h1>
+        </header>
+            <section>
+                <h2>Baghdad</h2>
+                <div>
+                    <img src="{{url_for ('static', filename ='Al-Mustansiriya School.jpg')}}" alt="Al-Mustansiriya School">
+                    <img src="{{url_for ('static', filename ='the Baghdad Museum.jpg')}}" alt="the Baghdad Museum">
+                </div>
+                <p>Baghdad is the capital city of Iraq with a rich history and cultural heritage. Explore historical sites like Al-Mustansiriya School and the Baghdad Museum.</p>
+            </section>
+
+            <section>
+                <h2>Babylon</h2>
+                <img src="{{url_for ('static', filename ="Babylon.jpg")}}" alt="Babylon">
+                <p>Visit the ancient city of Babylon and marvel at the ruins of the Ishtar Gate and the Hanging Gardens, which are among the Seven Wonders of the Ancient World.</p>
+            </section>
+
+            <section>
+                <h2>Samara</h2>
+                <img src="{{url_for ('static', filename ="Samarra.jpg")}}" alt="Samara">
+                <p>
+                    Visit Samara, an ancient city situated along the Tigris River in Iraq. It is known for its rich historical heritage and architectural wonders, including the iconic Great Mosque of Samarra.
+                </p>
+            </section>
+
+            <section>
+                <h2>Basra</h2>
+                <img src="{{url_for ('static', filename ="Basra.jpg")}}" alt="Basra">
+                <p>
+                    Visit Basra, a historic port city in southern Iraq. It has been a crucial center of trade and commerce for centuries. With its intricate canal system and significant landmarks like the Basra Citadel and Grand Mosque, Basra offers a unique blend of history and modernity. Its bustling markets, delicious seafood, and cultural events make it a captivating destination for visitors.
+                </p>
+            </section>
+
+            <section>
+                <h2>The Marshes</h2>
+                <img src="{{url_for ('static', filename ="Marshes.jpg")}}" alt="The Marshes">
+                <p>
+                    Explore the breathtaking wetland ecosystem of the marshes of Iraq. Located in the southern part of the country, these mesmerizing marshlands are known for their unique beauty and ecological significance. They are home to diverse wildlife and vibrant flora, offering a captivating glimpse into a thriving and fragile ecosystem.
+                </p>
+            </section>
+
+            <section>
+                <h2>Erbil and Sulaymaniyah</h2>
+                <img src="{{url_for ('static', filename ="Erbil.jpg")}}" alt="Erbil">
+                <img src="{{url_for ('static', filename ="Sulaymaniyah.jpg")}}" alt="Sulaymaniyah">
+                <p>
+                    Discover Erbil and Sulaymaniyah, two captivating cities in northern Iraq. Erbil's ancient citadel and bustling markets showcase its rich past, while Sulaymaniyah is known as the cultural capital with its museums, galleries, and vibrant arts scene. These cities offer a unique experience, combining historical landmarks with contemporary urban environments.
+                </p>
+            </section>
+</form>
+{% endblock %}
