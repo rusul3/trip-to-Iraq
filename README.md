@@ -58,7 +58,7 @@ all photos save in static file with styles.css to manage the photos and extensio
 
 ## Demonstration on youtube
 For the CS50 final project you have to make a video showning your project,
-[My Final Project ]([https://www.youtube.com/watch?v=YAXmRfrcOVc](https://youtu.be/BNg1J6GJ_ho))
+[My Final Project ](https://youtu.be/BNg1J6GJ_ho)
 
 ## Documentation
 https://flask.palletsprojects.com/en/1.1.x/
